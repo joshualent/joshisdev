@@ -70,6 +70,27 @@ const config = {
     ],
   ],
 
+  // Add the plugins section here
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'tutorials',
+        routeBasePath: 'tutorials',
+        path: './tutorials',
+        showReadingTime: true,
+        feedOptions: {
+          type: ['rss', 'atom'],
+          xslt: true,
+        },
+        // Useful options to enforce blogging best practices
+        onInlineTags: 'warn',
+        onInlineAuthors: 'warn',
+        onUntruncatedBlogPosts: 'warn',
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -86,8 +107,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Wiki',
           },
+          {to: '/tutorials', label: 'Tutorials', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',

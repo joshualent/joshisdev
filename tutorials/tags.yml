@@ -1,0 +1,9 @@
+programming:
+  label: Programming
+  permalink: /tutorials/tags/programming
+  description: Programming tutorials
+
+javascript:
+  label: JavaScript
+  permalink: /tutorials/tags/javascript
+  description: JavaScript tutorials
