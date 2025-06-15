@@ -7,3 +7,8 @@ javascript:
   label: JavaScript
   permalink: /tutorials/tags/javascript
   description: JavaScript tutorials
+
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus tag description
