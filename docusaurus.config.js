@@ -15,15 +15,15 @@ const config = {
   favicon: "img/favicon-x.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://joshu.netlify.app",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "joshualent", // Usually your GitHub org/user name.
+  projectName: "joshisdev", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -43,6 +43,7 @@ const config = {
       ({
         docs: {
           sidebarPath: "./sidebars.js",
+          routeBasePath: "docs",
         },
         blog: {
           showReadingTime: false,
@@ -92,9 +93,9 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "My Site",
+        title: "joshIsDev",
         logo: {
-          alt: "My Site Logo",
+          alt: "Sitting Frog icon",
           src: "img/logo-cropped.svg",
           srcDark: "img/logo-cropped-dark.svg",
         },
@@ -105,8 +106,8 @@ const config = {
             position: "left",
             label: "Wiki",
           },
-          { to: "/tutorials", label: "Tutorials", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
+          { to: "/tutorials", label: "Tutorials", position: "left" },
           {
             href: "https://github.com/joshualent",
             label: "GitHub",
@@ -130,7 +131,7 @@ const config = {
               },
               {
                 label: "Wiki",
-                to: "/docs",
+                to: "/docs/intro",
               },
             ],
           },

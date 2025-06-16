@@ -14,6 +14,7 @@ import DocCardList from "@theme/DocCardList";
 Django follows a MVT architecture which is similar to other web frameworks MVC architecture. MVT stands for Models, Views, and Templates, which are the main components of web apps written in Django. Django projects can also be made as or turned into API's with the [Django Rest Framework](https://www.django-rest-framework.org/). In actuallity, there is another large step to making apps in Django, which is defining URLs, although this part is commonly left out of the abbreviation. When a web user's browser makes a request to a Django site, the URLs route to the specified views, which use models as context to fill
 
 <DocCardList />
+{/*
 ### [Models](Models.md)
 
 Models in Django define the fields in a database. Django uses an Object Relationship Mapper, ORM, to translate python code into database languages like sqlite, PostgreSQl, MySQL, MariaDB, and Oracle. Django comes with a sqlite3 database when starting a new django project, but the good part about the ORM is that all database code can be written in Python, meaning no need to rewrite when switching databases. they are defined in `models.py` as a Python class
@@ -30,3 +31,4 @@ Views in Django come in two flavors, [Class-based]('Views.md#Class-based') and F
 ### [Templates](Templates.md)
 
 Django has it's own templating language to add "Python" to your html! This templating language intentionally doesn't let devs use actual python code, instead limiting them to use variables `{{ foo }}`, tags `{% bar %}`, and filters `{{foo|bar}}`. While you are limited to only use Django Template Language, pieces, these pieces provides a wide selection to add programming logic to your html. You can also [create your own tags and filters](https://docs.djangoproject.com/en/5.1/howto/custom-template-tags/) -->
+\*/}
