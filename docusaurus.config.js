@@ -44,6 +44,7 @@ const config = {
         docs: {
           sidebarPath: "./sidebars.js",
           routeBasePath: "docs",
+          editUrl: "https://github.com/joshualent/joshisdev/tree/main/",
         },
         blog: {
           showReadingTime: false,
@@ -93,7 +94,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "joshIsDev",
+        title: "joshisDev",
         logo: {
           alt: "Sitting Frog icon",
           src: "img/logo-cropped.svg",
@@ -106,8 +107,9 @@ const config = {
             position: "left",
             label: "Wiki",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+
           { to: "/tutorials", label: "Tutorials", position: "left" },
+          { to: "/blog", label: "blog", position: "right" },
           {
             href: "https://github.com/joshualent",
             label: "GitHub",
