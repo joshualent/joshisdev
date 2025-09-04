@@ -133,7 +133,7 @@ const config = {
               },
               {
                 label: "Wiki",
-                to: "/docs/intro",
+                to: "/docs/Git",
               },
             ],
           },
