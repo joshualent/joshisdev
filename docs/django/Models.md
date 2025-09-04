@@ -1,5 +1,0 @@
----
-id: django-models
----
-
-# Models
